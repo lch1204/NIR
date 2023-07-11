@@ -1,0 +1,10 @@
+debug/main.o
+debug/vma_controller.o
+debug/kx_protocol.o
+debug/qkx_coeffs.o
+debug/qpiconfig.o
+debug/main.o
+debug/vma_controller.o
+debug/moc_vma_controller.o
+debug/moc_kx_protocol.o
+debug/moc_qkx_coeffs.o
