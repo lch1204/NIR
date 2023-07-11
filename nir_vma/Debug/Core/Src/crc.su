@@ -1,0 +1,2 @@
+../Core/Src/crc.c:3:10:calculate_crc	32	static
+../Core/Src/crc.c:29:9:check_crc	40	static
