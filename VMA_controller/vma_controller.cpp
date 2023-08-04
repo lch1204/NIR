@@ -102,6 +102,18 @@ quint16 VMA_controller::calculate_crc(QByteArray array) {
     return wcrc;
 }
 
+void VMA_controller::setValues(const float Upl,const float Upp,const float Ucl,const float Ucp, const float Uzl, const float Uzp)
+{
+    double scale=2;
+    if (K[99]!=0) scale = K[99];
+    X[80][0]=vmaVector[0] = round(Upl/scale)+K[98];
+    X[81][0]=vmaVector[1] = round(Upp/scale)+K[98];
+    X[82][0]=vmaVector[2] = round(Ucl/scale)+K[98];
+    X[83][0]=vmaVector[3] = round(Ucp/scale)+K[98];
+    X[84][0]=vmaVector[4] = round(Uzl/scale)+K[98];
+    X[85][0]=vmaVector[5] = round(Uzp/scale)+K[98];
+}
+
 void VMA_controller::stop() {
     QMutexLocker lock(&mGuard);
     if (mSerialPort && mSerialPort->isOpen())
