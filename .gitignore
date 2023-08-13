@@ -1,0 +1,11 @@
+
+VMA_controller/build/Makefile
+VMA_controller/build/Makefile.Debug
+VMA_controller/build/release/moc_qkx_coeffs.cpp
+VMA_controller/build/release/moc_kx_protocol.cpp
+*.o
+*.cpp
+VMA_controller/build/release/VMA_controller.exe
+VMA_controller/build/release/moc_predefs.h
+VMA_controller/build/Makefile.Release
+VMA_controller/build/*
