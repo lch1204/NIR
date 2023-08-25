@@ -9,3 +9,4 @@ VMA_controller/build/release/VMA_controller.exe
 VMA_controller/build/release/moc_predefs.h
 VMA_controller/build/Makefile.Release
 VMA_controller/build/*
+PowerSystem/build/*

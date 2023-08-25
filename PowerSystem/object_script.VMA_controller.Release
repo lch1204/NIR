@@ -1,0 +1,10 @@
+release/main.o
+release/vma_controller.o
+release/kx_protocol.o
+release/qkx_coeffs.o
+release/qpiconfig.o
+release/main.o
+release/vma_controller.o
+release/moc_vma_controller.o
+release/moc_kx_protocol.o
+release/moc_qkx_coeffs.o
