@@ -47,7 +47,7 @@ private:
     QTimer mTimer;
     bool isConnected = false;
     mutable QMutex mGuard;
-    static constexpr int REQUEST_TIME = 100;
+    static constexpr int REQUEST_TIME = 10;
     static constexpr int PACKET_SIZE = 18;
     bool sendData();
     quint16 calculate_crc(QByteArray array);
